@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <script>
+
+        //uppercase
+
+            let str="mani";
+            let str_res=str.toUpperCase();
+            console.log(str_res);
+
+        //lowercase
+
+            let str_1="MANI";
+            let str_result=str_1.toLowerCase();
+            console.log(str_result);
+
+        //trim
+
+            let str_2="!hello worlds ?";
+            let res=str_2.trim();
+            console.log(res);
+
+        //substring
+
+            let string="Hii Friends !";
+            let results=string.substring(0,2);
+            console.log(results);
+
+         //slice
+
+            let string_1="madurai";
+            let res1=string_1.slice(1,2);
+            console.log(res1);
+
+         //split
+
+            let spl="apple,orange,banana";
+            let tres=spl.split();
+            console.log(tres);
+          
+        //join
+
+            let joi=["apple","orange","banana"];
+            let fruit=joi.join(" - ");
+            console.log(fruit);
+    
+        // replace
+
+            let rep="hello";
+            let world=rep.replace("hello","hii");
+            console.log(world);
+
+         // repeat
+
+            let rept="laptop";
+            let accessoires=rept.repeat(3);
+            console.log(accessoires);
+        
+        
+        //multiline -text
+
+         let name="Mani";
+         let city="salem";
+         let contact="9876543210";
+         let information=`Hii i am ${name} come from ${city} in ${contact} in my person.`;
+         console.log(information);
+         
+        
+        
+    </script>
+</body>
+</html>
